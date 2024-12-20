@@ -333,14 +333,18 @@ body {
     margin-top: 40px;
     padding: 20px 50px ;
 }
+#footer .second-sec{
+    margin-top: 20px;
+}
 #footer .second-sec h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
     text-align: start;
     align-items: start;
 }
 #footer .second-sec p {
     font-size: 15px;
+}
+#footer .third-sec{
+    margin-top: 20px;
 }
 #footer .third-sec h3 {
     font-size: 20px;
