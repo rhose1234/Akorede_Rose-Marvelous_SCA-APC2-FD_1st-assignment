@@ -175,7 +175,7 @@ body {
     margin: 20px 20px;
     border-radius: 30px;
     width: 700px;
-    min-width: 500px;
+   
     height: 400px;
     align-items: center;
     text-align: center;
@@ -310,8 +310,28 @@ body {
         height: 320px;
     }
     .section-p1{
-        padding: 10px 30px;
+        padding: 10px 20px;
         
   }
+  #My-projects .container .box1{
+    width: auto;
+    height: auto;
+  }
+  #My-projects .container .box1 img{
+    width: 100%;
+  }
+  #My-projects .container{
+    display: block;
+  }
+  #footer .container{
+    display: block;
+    justify-content: space-between; 
+    padding: 20px;
+}
+#footer{
+    background-color: #f3e8f2;
+    margin-top: 40px;
+    padding: 20px 50px ;
+}
 
   } 
