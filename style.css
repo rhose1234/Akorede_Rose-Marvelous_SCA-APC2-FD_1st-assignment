@@ -292,6 +292,7 @@ body {
       }
       #header div.nav-menu{
         display: block;
+        justify-content: end;
     }
       #navbar{
         display: none;
@@ -308,7 +309,13 @@ body {
         margin-top: 20px;
         height: 320px;
     }
+    .section-p1{
+        padding: 10px 30px;
+        
   }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     
+  body{
+
   }
+  } */
