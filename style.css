@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #800080;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+
+}
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+#header {
+ background: #f3e8f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 100px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  z-index: 9;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 10px 18px;
+  position: relative;
+}
+#navbar li a,
+#navbar li a.active {
+  text-transform: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  transition: 1s ease;
+}
+#navbar li a:hover,
+#navbar li a.active {
+  color: #800080;
+}
+#navbar li a.active::after,
+#navbar li a:hover:after {
+  content: " ";
+  width: 50px;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #800080;
+  position: absolute;
+  bottom: 0px;
+  left: 18px;
+}
+#header a img {
+  width: 100%;
+}
+
+#Hero-section{
+   background-color: #f3e8f2;
+   height: 100vh;
+   width: 100%;
+  
+ 
+   
+   padding: 40px 160px;
+   color: #010001;
+}
+#Hero-section h4{
+    color: #800080;
+
+}
+#Hero-section h1{
+    font-size: 45px;
+}
+#Hero-section h1 span{
+    color: #800080;
+}
+#Hero-section .inner{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Hero-section img{
+    width: 100%;
+    height: 470px;
+    border-radius: 146px 144px 0px 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#Hero-section .inner-1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    
+}
+.section-p1{
+    padding: 40px 160px;
+    
+}
+.section-p1 h1{
+    font-size: 40px;
+    color: #010001;
+    text-align: center;
+
+
+}
+.section-p1 p.Sub-heading{
+    font-size: 14px;
+    color: #010001;
+    text-align: center;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+#About-me {
+    text-align: start;
+    font-size: 13px;
+    line-height: 1.9;
+}
+#About-me h2{
+    font-size: 18px;
+    font-weight: 800;
+    list-style: square;
+}
+#About-me ul li{
+    list-style: inside;
+    list-style-type:circle;
+}
+
+#My-projects{
+    margin-top: 30px;
+}
+#My-projects .container {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+#My-projects .container .box1{
+    background-color: #f3e8f2;
+    color: #010001;
+    padding: 30px 40px;
+    margin: 20px 20px;
+    border-radius: 30px;
+    width: 700px;
+    min-width: 500px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+#My-projects .container .box1 p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#My-projects .container .box1 a{
+    color: #800080;
+    margin-right: 20px;
+}
+#My-projects .container .box1 a i{
+    color: #800080;
+    margin-left: 5px;
+}
+
+.form {
+    width: 100%;
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    justify-content: center;
+    place-content: center;
+   align-items: center;
+}
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f3e8f2;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.form input:focus,
+.form textarea:focus {
+    border-color: #800080;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form textarea {
+    resize: none;
+    font-family: inherit;
+}
+
+.form button:hover {
+    background-color: #c38cc0;
+    color: #010001;
+}
+
+#footer{
+    background-color: #f3e8f2;
+    margin-top: 40px;
+    padding: 80px  120px ;
+}
+#footer .container{
+    display: flex;
+    justify-content: space-between; 
+}
+#footer .first-sec {
+    display: block;
+    justify-content: center;
+    place-content: start;
+    align-items: start;  
+}
+
+#footer .second-sec h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+}
+#footer .second-sec p {
+    font-size: 15px;
+}
+#footer .third-sec h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+#footer .social-icons{ 
+    margin-top: 10px;
+}
+#footer .social-icons a{
+    color: #800080;
+  margin-left: 8px;
+}
+#footer .copyright{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 60px;
+}
+@media (max-width: 480px) {
+    
+    
+  }
+@media (max-width: 768px) {
+    
+  }
